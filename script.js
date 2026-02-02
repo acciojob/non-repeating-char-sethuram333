@@ -7,10 +7,10 @@ function firstNonRepeatedChar(str) {
  for(let i=0;i<str.length;i++){
     if(freq[str[i]]===1){
         return str[i]
-    }else{
-        return null
     }
  }
+	return null
 }
-const input = prompt("Enter a string");
+const input = prompt("Enter a stri");
 alert(firstNonRepeatedChar(input)); 
+
